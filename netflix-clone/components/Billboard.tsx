@@ -6,7 +6,14 @@ const Billboard = () => {
 
   return (
     <div className="relative h-[56.25vw]">
-      <video src={data?.videoUrl}></video>
+      <video
+        autoPlay  
+        muted 
+        loop 
+        poster={data?.thumbnailUrl} 
+        src={data?.videoUrl}>
+      
+        </video>
     </div>
   )
 }
