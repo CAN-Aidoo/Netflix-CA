@@ -12,7 +12,8 @@ const Billboard = () => {
         loop 
         poster={data?.thumbnailUrl} 
         src={data?.videoUrl}>
-      
+        
+
         </video>
     </div>
   )
